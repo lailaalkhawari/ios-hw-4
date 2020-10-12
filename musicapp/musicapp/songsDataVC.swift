@@ -48,7 +48,7 @@ var arabic = [
 var engChill = [
     music(artistName: "passenger" ,
           songs:[
-            song(name: "lethergo", image: "let her go") ,
+            song(name: "Let her go", image: "let her go") ,
             song(name: "venive Canals", image:"patchwork") ,
             song(name: "Patchwork", image:"patchwork")
           ]

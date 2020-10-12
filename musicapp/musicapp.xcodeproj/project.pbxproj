@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2229B35625338F9500B101EA /* playSongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229B35525338F9500B101EA /* playSongVC.swift */; };
-		2229B35C2533949A00B101EA /* lethergo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2229B35B2533949A00B101EA /* lethergo.mp3 */; };
+		2229B35C2533949A00B101EA /* Let her go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2229B35B2533949A00B101EA /* Let her go.mp3 */; };
 		222E5BB22530A7DB006CB6F7 /* singersTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222E5BB12530A7DB006CB6F7 /* singersTVC.swift */; };
 		222E5BB72530B500006CB6F7 /* songsDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222E5BB62530B500006CB6F7 /* songsDataVC.swift */; };
 		2236A9D025312197002CB7A1 /* singersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2236A9CF25312197002CB7A1 /* singersCell.swift */; };
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		2229B35525338F9500B101EA /* playSongVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playSongVC.swift; sourceTree = "<group>"; };
-		2229B35B2533949A00B101EA /* lethergo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lethergo.mp3; sourceTree = "<group>"; };
+		2229B35B2533949A00B101EA /* Let her go.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Let her go.mp3"; sourceTree = "<group>"; };
 		222E5BB12530A7DB006CB6F7 /* singersTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singersTVC.swift; sourceTree = "<group>"; };
 		222E5BB62530B500006CB6F7 /* songsDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songsDataVC.swift; sourceTree = "<group>"; };
 		2236A9CF25312197002CB7A1 /* singersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singersCell.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		222E5B832530A614006CB6F7 /* audio */ = {
 			isa = PBXGroup;
 			children = (
-				2229B35B2533949A00B101EA /* lethergo.mp3 */,
+				2229B35B2533949A00B101EA /* Let her go.mp3 */,
 			);
 			path = audio;
 			sourceTree = "<group>";
@@ -155,7 +155,7 @@
 			files = (
 				2250F87C25309FE30029788C /* Main.storyboard in Resources */,
 				2250F87125309F6F0029788C /* LaunchScreen.storyboard in Resources */,
-				2229B35C2533949A00B101EA /* lethergo.mp3 in Resources */,
+				2229B35C2533949A00B101EA /* Let her go.mp3 in Resources */,
 				2250F86E25309F6E0029788C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

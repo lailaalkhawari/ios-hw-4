@@ -18,6 +18,9 @@ class playSongVC: UIViewController {
     var song : song!
     var player : AVAudioPlayer?
     
+    let albumImage = UIImageView()
+    let slider = UISlider()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
       print(self.song.name)
@@ -31,7 +34,15 @@ class playSongVC: UIViewController {
         } catch {
             print(error)
         }
-        // Do any additional setup after loading the view.
+        
+        songImage.image = UIImage(named: song.image)
+        songNameLabel.text! = song.name
+        
+        @objc didSlidSlider(slider: UISlider){
+            let value = self.slider.value
+            self.player?.volume = value
+        }
+        
  }
 
 
