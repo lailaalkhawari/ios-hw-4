@@ -25,14 +25,14 @@ struct song {
 var arabic = [
     music(artistName: "مطرف",
           songs:[
-                song(name: "فاقدك", image: "مطرف" ),
+                song(name: "fagedk", image: "مطرف" ),
                 song(name: "الشخص الوحيد", image: "الشخص الوحيد") ,
                 song(name: "قصة", image: "مطرف" )
                 ]
           ,artistImage: "مطرف") ,
     music(artistName: "فهد السالم",
           songs: [
-          song(name: "جيران", image: "جيران") ,
+          song(name: "jeeran", image: "جيران") ,
             song(name: "يفوق الوصف", image: "فهد") ,
             song(name: "حلم عمري", image: "حلم عمري")
           ] ,
@@ -56,14 +56,14 @@ var engChill = [
     
     music(artistName: "Ed Sheeran",
           songs: [
-            song(name: "photograph" , image:"photograph")
+            song(name: "Photograph" , image:"photograph")
           ] ,
           artistImage: "ed"),
     
     music(artistName: "Sam Smith" ,
           songs: [
             song(name: "Lay me down", image: "lay me down") ,
-            song(name: "tooGoodAtGoddbeys", image: "Too_Good_at_Goodbyes") ,
+            song(name: "TGAG", image: "Too_Good_at_Goodbyes") ,
             song(name: "Saty with me", image: "stay with me")
            ] ,
           artistImage: "sam smith" ),

@@ -18,6 +18,12 @@
 		2250F87125309F6F0029788C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2250F86F25309F6F0029788C /* LaunchScreen.storyboard */; };
 		2250F87C25309FE30029788C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2250F87A25309FE30029788C /* Main.storyboard */; };
 		2250F87F2530A02A0029788C /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2250F87E2530A02A0029788C /* ViewController2.swift */; };
+		227451E9253480B10091124A /* Photograph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 227451E4253480B00091124A /* Photograph.mp3 */; };
+		227451EA253480B10091124A /* jeeran.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 227451E5253480B00091124A /* jeeran.mp3 */; };
+		227451EB253480B10091124A /* fagedk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 227451E6253480B10091124A /* fagedk.mp3 */; };
+		227451EC253480B10091124A /* Patchwork.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 227451E7253480B10091124A /* Patchwork.mp3 */; };
+		227451ED253480B10091124A /* TGAG.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 227451E8253480B10091124A /* TGAG.mp3 */; };
+		227451F22534826E0091124A /* الشخص الوحيد.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 227451F12534826E0091124A /* الشخص الوحيد.mp3 */; };
 		22E504E72532E52F002390ED /* songsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E504E62532E52F002390ED /* songsTVC.swift */; };
 		22E504EB2532EB13002390ED /* songsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E504EA2532EB13002390ED /* songsListCell.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +42,12 @@
 		2250F87225309F6F0029788C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2250F87B25309FE30029788C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../music/music/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2250F87E2530A02A0029788C /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		227451E4253480B00091124A /* Photograph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Photograph.mp3; sourceTree = "<group>"; };
+		227451E5253480B00091124A /* jeeran.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jeeran.mp3; sourceTree = "<group>"; };
+		227451E6253480B10091124A /* fagedk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fagedk.mp3; sourceTree = "<group>"; };
+		227451E7253480B10091124A /* Patchwork.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Patchwork.mp3; sourceTree = "<group>"; };
+		227451E8253480B10091124A /* TGAG.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TGAG.mp3; sourceTree = "<group>"; };
+		227451F12534826E0091124A /* الشخص الوحيد.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "الشخص الوحيد.mp3"; sourceTree = "<group>"; };
 		22E504E62532E52F002390ED /* songsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songsTVC.swift; sourceTree = "<group>"; };
 		22E504EA2532EB13002390ED /* songsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songsListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				2229B35B2533949A00B101EA /* Let her go.mp3 */,
+				227451E6253480B10091124A /* fagedk.mp3 */,
+				227451E7253480B10091124A /* Patchwork.mp3 */,
+				227451E4253480B00091124A /* Photograph.mp3 */,
+				227451E8253480B10091124A /* TGAG.mp3 */,
+				227451F12534826E0091124A /* الشخص الوحيد.mp3 */,
+				227451E5253480B00091124A /* jeeran.mp3 */,
 			);
 			path = audio;
 			sourceTree = "<group>";
@@ -154,9 +172,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2250F87C25309FE30029788C /* Main.storyboard in Resources */,
+				227451EB253480B10091124A /* fagedk.mp3 in Resources */,
+				227451ED253480B10091124A /* TGAG.mp3 in Resources */,
+				227451F22534826E0091124A /* الشخص الوحيد.mp3 in Resources */,
 				2250F87125309F6F0029788C /* LaunchScreen.storyboard in Resources */,
 				2229B35C2533949A00B101EA /* Let her go.mp3 in Resources */,
 				2250F86E25309F6E0029788C /* Assets.xcassets in Resources */,
+				227451EA253480B10091124A /* jeeran.mp3 in Resources */,
+				227451EC253480B10091124A /* Patchwork.mp3 in Resources */,
+				227451E9253480B10091124A /* Photograph.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

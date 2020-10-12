@@ -13,13 +13,12 @@ class playSongVC: UIViewController {
     
     @IBOutlet weak var songImage: UIImageView!
     @IBOutlet weak var songNameLabel: UILabel!
-//    @IBOutlet weak var slider: UISlider!
+   
     
     var song : song!
     var player : AVAudioPlayer?
     
     let albumImage = UIImageView()
-    let slider = UISlider()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,24 +37,30 @@ class playSongVC: UIViewController {
         songImage.image = UIImage(named: song.image)
         songNameLabel.text! = song.name
         
-        @objc didSlidSlider(slider: UISlider){
-            let value = self.slider.value
-            self.player?.volume = value
-        }
+        
         
  }
 
-
-    @IBAction func playButton(_ sender: Any) {
-        player?.play()
+    var played : Bool = false
+    
+    @IBAction func playButton(_ sender: UIButton) {
+        if played{
+           
+            player?.pause()
+            sender.setImage(UIImage(named:"play") , for: .normal)
+        }else{
+            player?.play()
+            sender.setImage(UIImage(named: "puase") , for: .normal)
+        }
+        played.toggle()
     }
     
     @IBAction func nextButton(_ sender: Any) {
-        
+        player?.currentTime += 10
     }
     
     @IBAction func preButton(_ sender: Any) {
-        
+        player?.currentTime -= 10
     }
 //    @IBAction func uiSlider(_ sender: Any) {
     }
